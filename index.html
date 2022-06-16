@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mega Sklep</title>
+</head>
+<body>
+<section class="products">
+    <h1>Basic Shop & Basket</h1>
+    <ul class="products-list">
+        <li>
+            <strong>Glasses</strong> - 9.99 <button class="btn-buy-product" data-name="Glasses" data-price="9.99">Buy!</button>
+        </li>
+        <li>
+            <strong>Bench</strong> - 7.50 <button class="btn-buy-product" data-name="Bench" data-price="7.5">Buy!</button>
+        </li>
+        <li>
+            <strong>Audi Q7</strong> - 109000.00 <button class="btn-buy-product" data-name="Audi Q7 Power X" data-price="109000">Buy!</button>
+        </li>
+    </ul>
+</section>
+<section class="basket">
+    <h1>Shop Basket</h1>
+    <ul class="basket-list"></ul>
+    <button class="btn-buy-all" disabled>Make a order</button>
+</section>
+<section class="admin-add-product">
+    <h1>Admin: Add your own product</h1>
+    <form class="form-add-product">
+        <input type="text" name="product-name" placeholder="Name of product..." required>
+        <input type="number" name="product-price" placeholder="Set up price..." required>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<script src="src/basket.js"></script>
+<script src="src/ui.js"></script>
+<script src="src/admin-ui.js"></script>
+</body>
+</html>
+
+
+
+
+
+
